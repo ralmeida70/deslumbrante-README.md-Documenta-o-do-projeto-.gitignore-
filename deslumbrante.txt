@@ -1,0 +1,13 @@
+deslumbrante/
+├── README.md                 # Documentação do projeto
+├── .gitignore               # Arquivos ignorados pelo Git
+├── LICENSE                  # Licença de uso (ex: MIT)
+├── assets/
+│   ├── images/
+│   │   └── laptop_beterraba.png   # Imagem do sistema
+│   └── iso/
+│       └── beterraba13.iso        # ISO exclusiva do sistema
+├── site/
+│   ├── index.html           # Página principal do projeto
+│   ├── style.css            # Estilos visuais
+│   └── script.js            # Interatividade
