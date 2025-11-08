@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Deslumbrante</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            font-size: 2em;
+        }
+        .main-button {
+            margin: 30px;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            background-color: #2196F3;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .hidden {
+            display: none;
+        }
+        .beterraba-section {
+            padding: 20px;
+        }
+        .laptop {
+            width: 300px;
+            height: 200px;
+            border: 8px solid #333;
+            margin: 20px auto;
+            border-radius: 10px;
+            background-color: #008000;
+            position: relative;
+        }
+        .wallpaper {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, #008000 80%, #FFD700 20%);
+            position: relative;
+        }
+        .beterraba {
+            position: absolute;
+            top: 30px;
+            left: 100px;
+            width: 100px;
+            height: 100px;
+            background-color: #00FF00;
+            border-radius: 50%;
+            box-shadow: inset 0 0 10px #006400;
+        }
+        .menu-iniciar {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #FFD700;
+            padding: 5px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .barra-tarefas {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 20px;
+            background-color: #FFD700;
+            color: #008000;
+            font-weight: bold;
+            text-align: left;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>Deslumbrante</header>
+    <button class="main-button" onclick="document.getElementById('beterraba13').classList.remove('hidden')">Acessar Beterraba 13</button>
+
+    <div id="beterraba13" class="hidden beterraba-section">
+        <h2>Beterraba 13</h2>
+        <button class="main-button">Baixar</button>
+        <p>ISO exclusiva do sistema Beterraba 13 com visual vibrante e interface única.</p>
+        <div class="laptop">
+            <div class="wallpaper">
+                <div class="beterraba"></div>
+                <div class="menu-iniciar">Iniciar</div>
+                <div class="barra-tarefas">N</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
